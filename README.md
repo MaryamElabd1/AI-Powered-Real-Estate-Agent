@@ -33,3 +33,32 @@ The goal of the project is to provide a seamless conversational experience while
 
 The following sections demonstrate the main functionalities of the AI-powered real estate agent through screenshots and short video demonstrations.
 
+### 1. Buyer Verification & Registration
+
+Before handling customer requests, the agent verifies the customer's identity using their mobile number.
+
+Both **Buyer Verification** and **Buyer Registration** are implemented using custom **Apex services/actions** integrated with Agentforce.
+
+The verification and registration process includes:
+
+* Checking the available `ChannelPhoneNumber` when provided.
+* Normalizing the phone number and country code before verification.
+* Verifying the customer against existing buyer records using an Apex service.
+* If no matching buyer is found, offering the customer the option to create a new account.
+* Collecting the required registration information, including First Name, Last Name, Phone Number, Email, National ID, and Buyer Type.
+* Creating the buyer account using the Apex registration service.
+* Confirming successful registration and continuing with the customer's original request.
+
+**Workflow:**
+
+`Customer Message → Phone Number Detection → Phone Normalization → Buyer Verification`
+
+`Buyer Found → Verification Successful`
+
+**OR**
+
+`Buyer Not Found → Account Registration → Buyer Account Created → Continue Original Request`
+
+#### 🎥 Demo
+
+A short demonstration of the buyer verification and registration flow.
