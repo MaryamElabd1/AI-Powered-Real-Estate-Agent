@@ -16,3 +16,15 @@ The agent enables customers to:
 * Cancel existing reservations
 
 The goal of the project is to provide a seamless conversational experience while reducing the need for manual intervention in routine real estate processes.
+
+
+## Key Features
+
+* 🔎 **Unit Search & Matching** — Find suitable units based on customer requirements and preferences.
+* 🏢 **Project & Unit Information** — Provide information about real estate projects and available units.
+* 👤 **Buyer Verification** — Verify buyer information before performing reservation-related operations.
+* 📋 **Reservation Management** — View and manage existing reservations.
+* ✅ **Create Reservation** — Create a reservation for a selected unit.
+* ❌ **Cancel Reservation** — Cancel an existing reservation through the conversational agent.
+* ⏰ Reservation Expiry Reminders — Send reminders to customers before their reservation expires.
+* 💬 **Conversational AI** — Interact with the real estate agent using natural language.
