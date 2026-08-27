@@ -28,3 +28,8 @@ The goal of the project is to provide a seamless conversational experience while
 * ❌ **Cancel Reservation** — Cancel an existing reservation through the conversational agent.
 * ⏰ Reservation Expiry Reminders — Send reminders to customers before their reservation expires.
 * 💬 **Conversational AI** — Interact with the real estate agent using natural language.
+
+## Functionalities & Demo
+
+The following sections demonstrate the main functionalities of the AI-powered real estate agent through screenshots and short video demonstrations.
+
