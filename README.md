@@ -62,3 +62,5 @@ The verification and registration process includes:
 #### 🎥 Demo
 
 A short demonstration of the buyer verification and registration flow.
+
+[▶️ Watch Buyer Verification & Registration Demo](./buyer-verification-registration.mp4)
