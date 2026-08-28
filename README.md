@@ -6,7 +6,7 @@ An AI-powered real estate assistant built using **Salesforce Agentforce** to hel
 
 The AI-Powered Real Estate Agent is a conversational AI solution developed using **Salesforce Agentforce** to automate common real estate customer interactions.
 
-The solution follows a modular architecture, where specialized agent capabilities handle different customer intents and interact with **Salesforce CRM** through configured actions, Flows, and Apex services.
+The solution follows a modular architecture, where specialized agent capabilities handle different customer intents and interact with Salesforce CRM through configured actions, Flows, Apex services, and CRM data.
 
 The agent enables customers to:
 
@@ -42,7 +42,7 @@ The goal of the project is to provide a seamless conversational experience while
 * 📋 **Reservation Management** — View and manage existing reservations.
 * ✅ **Create Reservation** — Create a reservation for a selected unit.
 * ❌ **Cancel Reservation** — Cancel an existing reservation through the conversational agent.
-* ⏰ Reservation Expiry Reminders — Send reminders to customers before their reservation expires.
+* ⏰ **Reservation Expiry Reminders** — Check for upcoming reservation expirations and remind customers when a reservation is due to expire within 3 days.
 * 💬 **Conversational AI** — Interact with the real estate agent using natural language.
 
 ## Functionalities & Demo
@@ -194,7 +194,7 @@ The flow retrieves the requested unit and checks its availability. If the unit i
 <img width="1165" height="627" alt="Step1" src="https://github.com/user-attachments/assets/2bfd5221-b6ed-4c1a-acf2-28c4dd6c4c5f" />
 
 Step 2 — Check Reservation & Create Booking
-The agent checks for any existing reservation, validates the unit’s availability, and retrieves relevant pricing information. If the unit is already reserved, the agent provides an appropriate message and suggests similar available units. Otherwise, it creates the new reservation, updates the unit status, handles any creation errors, and returns the booking confirmation.
+The agent checks for any existing reservation, validates the unit’s availability, and retrieves relevant pricing information. If the unit is already reserved, the agent provides an appropriate message and suggests similar available units. Otherwise, it creates the new reservation, updates the unit status, handles reservation creation errors, and returns the booking confirmation.
 
 <img width="1276" height="634" alt="Step2" src="https://github.com/user-attachments/assets/86140714-cc46-4cda-9259-3f9ec62df471" />
 
@@ -219,8 +219,7 @@ This functionality is handled through the **Reservation Expiry Reminder** action
 
 #### 🎥 Demo — Reservation & Expiry Reminder
 
-Demonstrating the reservation process and automated reminders for expiring reservations.
-
+Demonstrating the reservation process and the expiry reminder functionality for reservations approaching their hold expiry date.
 https://github.com/user-attachments/assets/d6d93799-65ff-4aaa-b307-d5bcaab6baa7
 
 ---
@@ -303,5 +302,7 @@ Examples include:
 The AI agent was designed and configured using **Salesforce Agentforce Builder**, with specialized subagents, custom actions, Salesforce Flows, Apex services, and CRM data retrieval.
 
 The implementation focuses on conversational orchestration, business logic, validation, record management, and error handling across the main real estate customer journeys.
+
+The agent uses specialized capabilities for buyer management, project and unit discovery, and reservation management, with Salesforce Flows and Apex services handling the underlying business logic and validations.
 
 
