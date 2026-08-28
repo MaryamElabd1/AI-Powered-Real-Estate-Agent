@@ -4,7 +4,9 @@ An AI-powered real estate assistant built using **Salesforce Agentforce** to hel
 
 ## Project Overview
 
-The AI-Powered Real Estate Agent is a conversational AI solution developed using Salesforce Agentforce to automate common real estate customer interactions.
+The AI-Powered Real Estate Agent is a conversational AI solution developed using **Salesforce Agentforce** to automate common real estate customer interactions.
+
+The solution follows a modular architecture, where specialized agent capabilities handle different customer intents and interact with **Salesforce CRM** through configured actions, Flows, and Apex services.
 
 The agent enables customers to:
 
@@ -17,6 +19,20 @@ The agent enables customers to:
 
 The goal of the project is to provide a seamless conversational experience while reducing the need for manual intervention in routine real estate processes.
 
+---
+
+
+## Tech Stack
+
+* **AI Platform:** Salesforce Agentforce
+* **CRM:** Salesforce
+* **Backend & Automation:** Apex, Salesforce Actions, Flows
+* **AI Capabilities:** Conversational AI, Intent Detection, Context-Aware Responses
+* **Data & Retrieval:** Salesforce CRM Records
+* **Development Tools:** Salesforce Agentforce Builder
+
+
+---
 
 ## Key Features
 
@@ -268,4 +284,24 @@ The following video demonstrates both the reservation update and cancellation fl
 https://github.com/user-attachments/assets/9c7fa204-5b25-4d4a-9df7-5a3ef826aa9c
 
 ---
+
+### Error Handling & Validation
+
+The agent includes validation and error-handling paths across reservation-related operations to provide clear responses and prevent invalid updates.
+
+Examples include:
+
+* Preventing double booking when a unit is already reserved or on hold.
+* Handling missing inventory or reservation records.
+* Handling reservation creation and update failures.
+* Validating reservation identifiers before cancellation.
+* Updating unit status after reservation cancellation.
+* Providing appropriate success and error messages to the customer.
+---
+## Implementation
+
+The AI agent was designed and configured using **Salesforce Agentforce Builder**, with specialized subagents, custom actions, Salesforce Flows, Apex services, and CRM data retrieval.
+
+The implementation focuses on conversational orchestration, business logic, validation, record management, and error handling across the main real estate customer journeys.
+
 
