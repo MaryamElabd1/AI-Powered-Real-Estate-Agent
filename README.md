@@ -169,4 +169,6 @@ The demonstration includes:
 * Searching for units based on specific requirements
 * Receiving alternative unit recommendations when an exact match is unavailable
 
+[▶️ Watch the Demo](./real-estate-agent-FunctionPart1-demo.mp4)
+
   
