@@ -155,8 +155,8 @@ Customers can receive reminders before their reservations expire, helping them t
 
 <img width="713" height="604" alt="reservation-expiry-reminder-flow" src="https://github.com/user-attachments/assets/ec5936f0-5f1c-447f-9859-50ca9a4f0420" />
 
----
-## 🎥 Demo
+
+#### 🎥 Demo
 
 The following video demonstrates the main functionalities of the AI-powered real estate agent in a single interaction.
 
@@ -170,5 +170,4 @@ The demonstration includes:
 * Receiving alternative unit recommendations when an exact match is unavailable
 
 [▶️ Watch the Demo](./real-estate-agent-FunctionPart1-demo.mp4)
-
   
