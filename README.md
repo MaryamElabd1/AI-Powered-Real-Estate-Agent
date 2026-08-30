@@ -267,12 +267,14 @@ If the cancellation is successful, the agent confirms that the reservation has b
 ***Identify Reservation***
 
 The flow identifies the reservation using either the reservation number or the unit code, then retrieves and stores the reservation record.
+
 <img width="653" height="543" alt="Screenshot 2026-08-29 013233" src="https://github.com/user-attachments/assets/5aeb63c0-9704-401c-93d3-61f5f74bac75" />
 
 
 ***Cancel Reservation***
 
 The flow validates the reservation, cancels it, updates the unit status, and returns either a success or error message.
+
 <img width="724" height="557" alt="Screenshot 2026-08-29 013437" src="https://github.com/user-attachments/assets/42f8f6ab-54af-4b0f-b6ba-9ed2d93a66e2" />
 
 
